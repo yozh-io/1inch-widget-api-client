@@ -4,7 +4,7 @@
   "description": "",
   "main": "./client/api/index.ts",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/yozh-io/1inch-widget-api-client"
+    "@yozh-io:registry":"https://npm.pkg.github.com"
   },
   "scripts": {
     "codegen": "rm -rf client/api && npx openapi-generator-cli generate -i https://api.1inch.io/swagger/ethereum-json -g typescript-fetch -o client/api -c config.json",
