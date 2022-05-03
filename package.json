@@ -1,0 +1,23 @@
+{
+  "name": "1inch-widget-api-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./client/api/src/index.ts",
+  "scripts": {
+    "generate-api": "rm -rf client/api && npx openapi-generator-cli generate -i https://api.1inch.io/swagger/ethereum-json -g typescript-fetch -o client/api -c config.json && cd client/api && npm i && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yozh-io/1inch-widget-api-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yozh-io/1inch-widget-api-client/issues"
+  },
+  "homepage": "https://github.com/yozh-io/1inch-widget-api-client#readme",
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.5.1"
+  }
+}
