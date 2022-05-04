@@ -1,3 +1,5 @@
 {
+  "npmName": "@yozh-io/1inch-widget-api-client",
+  "npmVersion": "0.1.0",
   "supportsES6": true
 }
