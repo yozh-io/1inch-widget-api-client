@@ -19,7 +19,7 @@
     "url": "https://github.com/yozh-io/1inch-widget-api-client/issues"
   },
   "homepage": "https://github.com/yozh-io/1inch-widget-api-client#readme",
-  "dependencies": {
+  "devDependencies": {
     "@openapitools/openapi-generator-cli": "^2.5.1"
   }
 }
