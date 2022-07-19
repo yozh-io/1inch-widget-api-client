@@ -1,0 +1,15 @@
+{
+  "name": "@yozh-io/1inch-widget-api-client",
+  "version": "0.1.0",
+  "description": "OpenAPI client for @yozh-io/1inch-widget-api-client",
+  "author": "OpenAPI-Generator",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^2.4"
+  }
+}
