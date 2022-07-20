@@ -8,11 +8,13 @@ const gnosisApi = require('./networks/gnosis/dist');
 const optimismApi = require('./networks/optimism/dist');
 const polygonApi = require('./networks/polygon/dist');
 
-module.exports = arbitrumApi;
-module.exports = avalancheApi;
-module.exports = binanceApi;
-module.exports = ethereumApi;
-module.exports = fantomApi;
-module.exports = gnosisApi;
-module.exports = optimismApi;
-module.exports = polygonApi;
+module.exports = {
+  arbitrumApi: arbitrumApi,
+  avalancheApi: avalancheApi,
+  binanceApi: binanceApi,
+  ethereumApi: ethereumApi,
+  fantomApi: fantomApi,
+  gnosisApi: gnosisApi,
+  optimismApi: optimismApi,
+  polygonApi: polygonApi,
+};
